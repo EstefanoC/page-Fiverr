@@ -13,7 +13,7 @@ window.onscroll = () => {
 
     const headerScroll = document.querySelector('.header-scroll')
 
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth > 767) {
         if (scroll > 300) {
             headerScroll.classList.add('activo-scroll')
         } else {
